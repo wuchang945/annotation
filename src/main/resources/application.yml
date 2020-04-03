@@ -1,0 +1,10 @@
+server:
+  port: 9999
+  tomcat:
+    uri-encoding: gb2312
+spring:
+  http:
+    encoding:
+      force: true
+      charset: gb2312
+      enabled: true
